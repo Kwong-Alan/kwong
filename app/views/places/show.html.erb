@@ -118,7 +118,7 @@
 <% end %>
 
 <div class="clear"></div>
-<%= simple_form_for @photos, url: '#' do |f| %>
+<%= simple_form_for @photos, url: place_photos_path(@place) do |f| %>
   <%= f.input :message %>
   <%= f.input :rating %>
   <%= f.submit "Add a photo", class: 'btn btn-primary' %>
