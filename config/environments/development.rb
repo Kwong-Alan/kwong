@@ -7,8 +7,8 @@ Rails.application.configure do
     domain: "example.com",
     authentication: "plain",
     enable_starttls_auto: true,
-    user_name: ENV['GMAIL_ADDRESS'],
-    password: ENV['GMAIL_PASSWORD']
+    user_name: ENV['alankwack@gmail.com'],
+    password: ENV['Asshole08!']
   }
   config.action_mailer.default_url_options = { host: 'nomster-alan-kwong.herokuapp.com' }
   # Settings specified here will take precedence over those in config/application.rb.
