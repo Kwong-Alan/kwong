@@ -35,7 +35,6 @@
     <h1><%= link_to place.name, place_path(place) %></h1><br />
     <i><%= place.address %></i><br />
     <p><%= place.description %></p><br />
-
 <% if place.user.present? %>
       <small><%= place.user.email %></small>
     <% end %>
@@ -55,8 +54,8 @@
           <% end %>
           <%= place.comments.last.message %>
           <small><%= place.comments.last.user.email %></small>
-  </blockquote>
-</div>
-</div>
-<% end %>
+         </blockquote>
+     </div>
+    <% end %>
+  </div>
 <% end %>

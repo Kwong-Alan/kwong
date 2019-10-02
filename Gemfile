@@ -72,6 +72,7 @@ gem 'geocoder'
 gem "figaro"
 gem 'carrierwave', '~>2.0'
 gem 'aws'
+gem 'fog-aws'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
